@@ -4,7 +4,7 @@ const people = [
     { name: "john", age: 21 }
   ];
   
-  people.forEach(function(person) {
+  people.forEach((person)=> {
     console.log(person.name + " is " + person.age + " years old.");
   });
   

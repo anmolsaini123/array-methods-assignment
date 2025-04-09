@@ -1,5 +1,5 @@
 const studentNames = ["Anmol", "Vansh", "Udhay", "Nitin"];
 
-studentNames.forEach(function(name) {
+studentNames.forEach((name)=> {
   console.log(name);
 });

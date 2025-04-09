@@ -4,7 +4,7 @@ const products=[
     {name:"mango", price:900 }
 ];
 
-const productprice= products.filter( function (product) {
+const productprice= products.filter( (product)=> {
     return product.price>1000;
 });
 console.log(productprice);
